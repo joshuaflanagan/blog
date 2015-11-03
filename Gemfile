@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem "octopress"
 gem "jekyll"
 
 ## From http://jekyllrb.com/docs/github-pages/
