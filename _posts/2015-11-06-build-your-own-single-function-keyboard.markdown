@@ -4,7 +4,7 @@ title: "Build Your Own Single Function Keyboard"
 date: 2015-11-06T22:34:14-06:00
 ---
 
-I mentioned in [my last post]({{site.baseurl}}{% post_url 2015-11-02-infinity-ergodox %}) that it took
+I mentioned in [my last post]({{site.baseurl}}/2015/11/02/infinity-ergodox.html) that it took
 months between the time I ordered my Infinity Ergodox keyboard and the time it arrived.
 In the meantime, I [started reading up on it](http://people.eecs.ku.edu/~tlindsey/ErgoDox_FAQ.html),
 and learned that the firmware could also run on a [Teensy](https://www.pjrc.com/teensy/index.html).
