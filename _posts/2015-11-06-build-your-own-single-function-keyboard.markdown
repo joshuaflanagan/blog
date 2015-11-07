@@ -17,7 +17,7 @@ I decided I'd try my hand at building my *own* keyboard. But this one would be
 very special. It would have one key, with one function: approve GitHub pull requests!
 At ShippingEasy, all of our code goes through a Pull Request. Before you can
 merge the Pull Request, someone else has to approve it. By convention, we indicate
-approval with the :+1: emoji (also :thumbsup:). So I wanted a big, red button
+approval with the `:+1:` emoji (also `:thumbsup:`). So I wanted a big, red button
 that I could slap to approve a pull request.
 
 Turns out, its pretty easy to do. My search for a big red button led me to the
