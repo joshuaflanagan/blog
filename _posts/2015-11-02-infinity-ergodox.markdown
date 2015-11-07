@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Infinity ErgoDox"
-date: 2015-11-02T19:40:31-06:00
+real_date: 2015-11-02T19:40:31-06:00
+date: 2015-11-02T17:40:31-06:00
 ---
 
 I've always been picky about my keyboard, but recently discovered an entirely
