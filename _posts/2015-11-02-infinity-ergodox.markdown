@@ -3,6 +3,8 @@ layout: post
 title: "Infinity ErgoDox"
 real_date: 2015-11-02T19:40:31-06:00
 date: 2015-11-02T17:40:31-06:00
+redirect_from:
+  - /2015/11/03/infinity-ergodox.html
 ---
 
 I've always been picky about my keyboard, but recently discovered an entirely
