@@ -7,6 +7,7 @@ url: "http://www.joshuaflanagan.com/blog" # the base hostname & protocol for you
 website: "http://www.joshuaflanagan.com"
 twitter_username: jflanagan
 github_username: joshuaflanagan
+timezone: "America/Chicago"
 
 # Build settings
 markdown: kramdown
