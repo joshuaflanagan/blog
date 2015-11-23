@@ -215,5 +215,5 @@ and the [controller code wiki](https://github.com/kiibohd/controller/wiki/How-To
 You should also check out the [burritoware commentary](http://www.burritoware.me/proj/infinity-ergodox/),
 as I found it helpful during my first build.
 
-If any of the steps above need correction or clarification, please mention it on
-the input.club forums, or [contact me on twitter](https://twitter.com/jflanagan).
+If any of the steps above need correction or clarification, [please mention it on the input.club forums](http://input.club/forums/topic/build-guide-companion),
+or [contact me on twitter](https://twitter.com/jflanagan).
