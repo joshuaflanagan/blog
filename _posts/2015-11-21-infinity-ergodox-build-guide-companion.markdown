@@ -217,3 +217,13 @@ as I found it helpful during my first build.
 
 If any of the steps above need correction or clarification, [please mention it on the input.club forums](http://input.club/forums/topic/build-guide-companion),
 or [contact me on twitter](https://twitter.com/jflanagan).
+
+<hr>
+
+<br />
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+</a>
+<br />
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Infinity Ergodox Build Guide Companion</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.joshuaflanagan.com/blog/2015/11/21/infinity-ergodox-build-guide-companion.html" property="cc:attributionName" rel="cc:attributionURL">Joshua Flanagan</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+Explicit permission is granted to the Infinity ErgoDox Build Guide hosted at <a href="http://input.club/devices/infinity-ergodox/infinity-ergodox-build-guide">http://input.club/devices/infinity-ergodox/infinity-ergodox-build-guide</a> to incorporate any portion of this work without attribution.
