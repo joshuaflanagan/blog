@@ -167,7 +167,7 @@ Installing the (optional) LEDs is mostly straightforward, but there are a couple
 tips that will make things go more smoothly. After you have pushed the LED through
 the switch and PCB (correctly oriented so the long wire goes through the square
 hole), make sure it is in as far as it will go before you solder it. I held a
-finger against the LED on the other side of the board will I soldered it to make
+finger against the LED on the other side of the board while I soldered it to make
 sure it didn't slip out at all. If the LED sits just a small amount above the
 switch, it may interfere with the keycap when you press the key.
 After the two wires are soldered in, you'll need to trim them as close to the
