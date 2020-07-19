@@ -59,6 +59,7 @@ the Used By column in the table). The header connectors make it easier to remove
 the Teensy from the Prop sheild, but if you want a permanant connection, you can
 probable get a lower profile by not using headers.
 ![Teensy and Prop Shield with header connectors](({{site.baseurl}}/assets/teensy_and_prop_shield.jpg)
+
 2) Mount the Teensy+Prop to a hat or headset. I [3D printed a small box to hold it](https://www.thingiverse.com/thing:4546801),
 and used some heavy duty velcro to attach it (stick the soft side on the headset).
 It is important to mount it before calibrating it, since the calibration is
