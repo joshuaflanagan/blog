@@ -15,7 +15,7 @@ view in a game (look around the cockpit) just by moving your head - so you can
 keep your hands focused on steering and throttle, etc. He had read about building
 an infrared based tracker for $10 - but the parts needed didn't seem convenient
 (PlayStation 3 camera and a floppy disk? - google it, you may like that solution better).
-Since I have [experience with programming a Teensy]({{site.baseurl}}/2015/11/06/build-your-own-single-function-keyboard.html)),
+Since I have [experience with programming a Teensy]({{site.baseurl}}/2015/11/07/build-your-own-single-function-keyboard.html)),
 I knew it was possible to create a relatively cheap device that could simulate a
 game controller. After searching for "head tracker teensy" I came across this
 [Inertial Head Tracker post](http://crispycircuits.blogspot.com/2018/06/inertial-head-tracker.html)
@@ -47,15 +47,15 @@ head to your computer. I went with one of these 10ft cables (https://smile.amazo
 
 ## Addendum to steps from the original source
 - Open Teensy/Arduino - the first thing you should do is go to the Tools menu and choose your Board (Teensy 3.2 for me).
-Now when you open the File | Examples menu, there should be a Teensy 3.2 section that includes NXPMotionSense.
+Now when you open the `File | Examples` menu, there should be a Teensy 3.2 section that includes NXPMotionSense.
 > If you don't see the NXPMotionSense examples, you can download them from
 the [NXPMotionSense github page](https://github.com/PaulStoffregen/NXPMotionSense), click on Code, and Download Zip. Extract the zip to a directory.
-- Open the `CalibrateSensors` example sketch from the NXPMotionSense group. (File|Examples|NXPMotionSense|CalibrateSensors).
-Or File|Open and find the sketch in the `examples` directory of the extracted zip.
-- Click the Verify button (or Sketch|Verify menu)
+- Open the `CalibrateSensors` example sketch from the NXPMotionSense group. (`File | Examples | NXPMotionSense | CalibrateSensors`).
+Or `File | Open` and find the sketch in the `examples` directory of the extracted zip.
+- Click the Verify button (or `Sketch | Verify` menu)
 to make sure it works. If it compiles, click the Upload button.
 - _follow instructions from original post to calibrate using MotionCal_
-- Open the `MahonyIMU` example sketch from the NXPMotionSense group (File|Examples|NXPMotionSense|MahonyIMU)
+- Open the `MahonyIMU` example sketch from the NXPMotionSense group (`File|Examples|NXPMotionSense|MahonyIMU`)
 - Click the Verify button. If it works - great! But you will likely get a fatal error stating that it cannot find `MahonyAHRS.h`.
 You need to install the MahonyAHRS library. As of this writing, the version (1.1) available in the Arduine Library Manager
 does _not_ work. You need to install the latest unreleased copy from the source. Go to https://github.com/PaulStoffregen/MahonyAHRS,
