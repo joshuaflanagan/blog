@@ -15,7 +15,7 @@ view in a game (look around the cockpit) just by moving your head - so you can
 keep your hands focused on steering and throttle, etc. He had read about building
 an infrared based tracker for $10 - but the parts needed didn't seem convenient
 (PlayStation 3 camera and a floppy disk? - google it, you may like that solution better).
-Since I have [experience with programming a Teensy]({{site.baseurl}}/2015/11/07/build-your-own-single-function-keyboard.html)),
+Since I have [experience with programming a Teensy]({{site.baseurl}}/2015/11/07/build-your-own-single-function-keyboard.html),
 I knew it was possible to create a relatively cheap device that could simulate a
 game controller. After searching for "head tracker teensy" I came across this
 [Inertial Head Tracker post](http://crispycircuits.blogspot.com/2018/06/inertial-head-tracker.html)
@@ -38,11 +38,10 @@ me some soldering work.
 it should be obvious that you cannot use the low cost Prop Shield, since the motion
 sensors are the part we need.
 - A long micro-USB cable. Long enough to allow freedom to connect the device on your
-head to your computer. I went with one of these 10ft cables (https://smile.amazon.com/gp/product/B07JBN6C5C).
+head to your computer. I went with one of these [10ft cables](https://smile.amazon.com/gp/product/B07JBN6C5C).
 - [Some header pins](https://smile.amazon.com/2-54mm-Breakaway-Female-Connector-Arduino/dp/B01MQ48T2V/) to make it easier to mount the Prop Shield on the Teensy.
 
 - [Teensyduino IDE](https://www.pjrc.com/teensy/td_download.html) - used to compile and publish programs to your Teensy.
-- NXPMotionSense library - this _may_ be included in the Examples packaged with your Arduino software. If not, go to
 
 
 ## Instructions
@@ -52,7 +51,7 @@ author deserves the credit, I just added some clarification on parts that confus
 1) You need to connect the Prop Shield to the Teensy. The easiest way (assuming
 you have a soldering iron, and know how to use it), is to attach some female
 header connectors to the Prop Shield. You only need to connect the long sides.
-Connect the Male header connectors to the bottom of the Teensy (or buy the version with pins).
+Connect the male header connectors to the bottom of the Teensy (or buy the version with pins).
 If you do not want to use header connectors, look at the diagram and table in the
 "Technical Details" section of [the Prop Shield page](https://www.pjrc.com/store/prop_shield.html)
 to identify the pins that need to be connected to make the sensors work (follow
@@ -93,7 +92,7 @@ will be enabled. Press that button to write the calibration data to the Teensy's
 In the Teensy IDE, change the USB Type from Serial to "Flight Sim Controls + Joystick".
 Click the Verify button. If it works - great! But you will likely get a fatal error stating that it cannot find `MahonyAHRS.h`.
 You need to install the MahonyAHRS library. As of this writing, the version (1.1) available in the Arduine Library Manager
-does _not_ work. You need to install the latest unreleased copy from the source. Go to https://github.com/PaulStoffregen/MahonyAHRS,
+does _not_ work. You need to install the latest unreleased copy from the source. Go to [https://github.com/PaulStoffregen/MahonyAHRS](https://github.com/PaulStoffregen/MahonyAHRS),
 click Code, Download Zip. Extract the zip to your Arduino libraries directory (which is likely `Arduino/libraries` in your user `Documents` directory).
 With the library installed, you should be able to Verify the sketch successfully. (I did see some _warnings_ but they can be ignored).
 Once it is successfully verified, upload it to the Teensy.
@@ -107,7 +106,7 @@ The 1 minute wait is necessary for the algorithm to reduce the error with the ma
 
 8) Create a new Sketch (`File | New`), paste in the code from below, and save it as `HeadtrackJoystick`.
 Change the `headingcenter=328` in the `void setup()` function and set it to the
-heading value when looking at your computer (from the previous step). This determines
+heading value you observed when facing your computer (from the previous step). This determines
 the center position of the joystick.
 
 9) _from the original post_
