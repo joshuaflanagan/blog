@@ -117,8 +117,8 @@ the center position of the joystick.
 > Launch OpenTrack and adjust the input to use the Teensy. Depending on your luck, you may need to invert axes to match your movement. You can also adjust sensitivity, smoothing, and define curves in OpenTrack. For the output settings, set the interface option as "Use TrackIR, hide FreeTrack" to be compatible with most TrackIR compatible applications. I highly recommend setting a bind key for "Center" under "Options" to have the software adjust the resting center. This is to account for small differences in your positioning as every time you use the head tracker, you will have a slightly different resting position.
 
 ## Code
-- Instead of using the code from the original post, use mine below (or, if gets mangled
-like it did on the original post, you can always [get the latest version from my Github](https://github.com/joshuaflanagan/head_tracker/blob/master/HeadtrackJoystick.ino).
+Instead of using the code from the original post, use mine below (or, if gets mangled
+like it did on the original post, you can always [get the latest version from my Github](https://github.com/joshuaflanagan/head_tracker/blob/master/HeadtrackJoystick.ino)).
 
 {% highlight c %}
 // HeadtrackJoystick, based on:
